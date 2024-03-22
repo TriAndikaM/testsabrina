@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6d40cdf-8fab-4c26-bc59-40c9e27ab71f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9aee8a40-7d61-4acd-a5f5-023e600e940c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/data file</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9aee8a40-7d61-4acd-a5f5-023e600e940c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Bookid</value>
+      <variableId>dce50e53-374f-479b-a43a-a09ba4cc8e46</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9aee8a40-7d61-4acd-a5f5-023e600e940c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>a3a975b3-2b0c-4f0b-ade5-dcfcdba26970</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9aee8a40-7d61-4acd-a5f5-023e600e940c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>updateName</value>
+      <variableId>edb865e0-8884-44d6-9dbf-fc1aaa5519a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('data file')</defaultValue>
+      <description></description>
+      <id>dce50e53-374f-479b-a43a-a09ba4cc8e46</id>
+      <masked>false</masked>
+      <name>book</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('data file')</defaultValue>
+      <description></description>
+      <id>a3a975b3-2b0c-4f0b-ade5-dcfcdba26970</id>
+      <masked>false</masked>
+      <name>customer</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('data file')</defaultValue>
+      <description></description>
+      <id>edb865e0-8884-44d6-9dbf-fc1aaa5519a9</id>
+      <masked>false</masked>
+      <name>update_name</name>
+   </variable>
+</TestCaseEntity>
